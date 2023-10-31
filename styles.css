@@ -1,0 +1,100 @@
+﻿body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    color:grey;
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+h4{
+    color: #6cb981;
+}
+
+.bg-grass{
+    background-image: url("Images/Grass.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-grass-dark{
+    background-image: url("Images/Grass.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: brightness(0.7);
+}
+
+.btn-custom-transparent{
+    font-weight: lighter;
+    border-radius: 2rem;
+    color: #b2b2b2;
+    background-color: rgba(0, 0, 0, 0.42);
+    padding: 1rem 2rem;
+}
+
+.btn-custom-helpme{
+    font-weight: bold;
+    color: #147c1f;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    filter: drop-shadow(0 0 1rem rgba(77, 88, 91, 0.32));
+}
+
+.widget-custom-rounded{
+    border-radius: 5rem 5rem 0 0;
+    overflow: hidden;
+    width: 100%;
+    height: 25rem;
+}
+
+.text-custom-green-header{
+    font-weight: bolder;
+    color: #0d4c14;
+}
+
+.text-custom-green{
+    font-weight: lighter;
+    color: #0d4c14;
+}
+
+.img-custom-icon{
+    width: 80px;
+    height: 80px;
+}
+
+.img-custom-icon-contact-section{
+    width: 24px;
+    height: 24px;
+}
+
+.widget-custom-reviews{
+    border-style: solid;
+    border-color: green;
+    border-radius: 3rem;
+    border-width: 0.1rem;
+}
+
+.text-review{
+    color: #0d4c14;
+}
+
+.custom-greenempty{
+    width: 30rem;
+    height: 4rem;
+    background-color: #9fdea9;
+    border-radius: 2rem;
+}
+
+.custom-greenempty-whiteinside{
+    width: 15rem;
+    height: 4rem;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 2rem;
+    border-width: 0.18rem;
+    border-style: solid;
+    border-color: #6cb981;
+}

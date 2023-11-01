@@ -10,6 +10,14 @@ h1{
     font-weight: bold;
 }
 
+.text-custom-grey-header{
+    color:grey;
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
 h4{
     color: #6cb981;
 }
@@ -18,6 +26,7 @@ h4{
     background-image: url("Images/Grass.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    filter:brightness(1.1);
 }
 
 .bg-grass-dark{
@@ -28,11 +37,12 @@ h4{
 }
 
 .btn-custom-transparent{
+    font-size: 1.5rem;
     font-weight: lighter;
     border-radius: 2rem;
     color: #b2b2b2;
     background-color: rgba(0, 0, 0, 0.42);
-    padding: 1rem 2rem;
+    padding: 1.3rem 2.3rem;
 }
 
 .btn-custom-helpme{
@@ -40,7 +50,7 @@ h4{
     color: #147c1f;
     background-color: white;
     border-radius: 2rem;
-    padding: 1rem 2rem;
+    padding: 1.3rem 2.3rem;
     filter: drop-shadow(0 0 1rem rgba(77, 88, 91, 0.32));
 }
 
@@ -59,6 +69,17 @@ h4{
 .text-custom-green{
     font-weight: lighter;
     color: #0d4c14;
+}
+
+.text-custom-headline{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:white;
+    font-size: 12rem;
+    margin: 2rem 25rem 8rem;
+    font-weight: bolder;
+    filter: drop-shadow(0 0 2rem rgba(52, 59, 61, 0.53));
 }
 
 .img-custom-icon{
@@ -97,4 +118,9 @@ h4{
     border-width: 0.18rem;
     border-style: solid;
     border-color: #6cb981;
+}
+
+.symbol-star{
+    font-size: 2.5rem;
+    color: #6cb981;
 }
